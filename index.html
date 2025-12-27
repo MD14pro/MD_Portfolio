@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-OA-Compatible" content="It-edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>My portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+        
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">MD Sheikh</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">MD Sheikh</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="togglemenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="togglemenu()">About</a></li>
+                    <li><a href="#experience"onclick="togglemenu()">Skills</a></li>
+                    <li><a href="#projects"onclick="togglemenu()">Projects</a></li>
+                    <li><a href="#contact"onclick="togglemenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic.png" alt=" MD profile picture"/>
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Muddassir Sheikh</h1>
+                <p class="section__text__p2">Electronics And Telecommunication Engineer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2"onclick="window.open('./assets/mdresume.pdf')">Download CV</button>
+                    <button class="btn btn-color-1"onclick="location.href='./#contact'">Contact Info</button>
+                </div>
+                <div id="socials-container">
+                    <img src="./assets/linkedin.png" alt="my linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/muddassir-sheikh-b72221247' "/>
+                    <img src="./assets/github.png" alt="my github profile" class="icon" onclick="location.href='https://github.com/MD14pro' "/>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <p class="section__text__p1">Get to know more</p>
+            <h1 class="title">About me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/about.png" alt="profile picture" class="about-pic"/>
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="exp icon" class="icon"/>
+                            <h3>Experience</h3>
+                            <p>CIIIT-mechatronics and IoT <br>IBase Electrosoft LLP-Python</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" alt="edu icon" class="icon"/>
+                            <h3>Education</h3>
+                            <p>B. Tech in electronics and Telecommunication<br>Diploma in Computer Technology </p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>
+                            Motivated Electronics And Telecommunication major with a versatile skillset in 
+                            python, C and Embedded C. Proven track record of transforming concepts into 
+                            working prototypes, including JARVIS AI Assistant and an analog AM radio 
+                            receiver. Combines technical proficiency in IoT with adaptive problem-solving 
+                            skills to deliver results in fast paced engineering environments; currently studying 
+                            at GCoE Chasndrapur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#experience'" />
+        </section>
+        <section id="experience">
+            <p class="section__text__p1">Explore my</p>
+            <h1 class="title">Skills</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Technical Skills</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="exp icon" class="icon"/>
+                                <div>
+                                    <h3>Circuit design</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="exp icon" class="icon"/>
+                                <div>
+                                    <h3>DSA using C</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="exp icon" class="icon"/>
+                                <div>
+                                    <h3>Embedded C</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="exp icon" class="icon"/>
+                                <div>
+                                    <h3>Internet of Things</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="exp icon" class="icon"/>
+                                <div>
+                                    <h3>Python</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="exp icon" class="icon"/>
+                                <div>
+                                    <h3>Signal Processing</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Soft Skills</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="exp icon" class="icon"/>
+                                <div>
+                                    <h3>Problem Solving</h3>
+                                    <p></p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="exp icon" class="icon"/>
+                                <div>
+                                    <h3>Deep thinking</h3>
+                                    <p></p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="exp icon" class="icon"/>
+                                <div>
+                                    <h3>Quick Addressing</h3>
+                                    <p></p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="exp icon" class="icon"/>
+                                <div>
+                                    <h3>Illumination</h3>
+                                    <p></p>
+                                </div>
+                            </article>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#projects'"/>
+        </section>
+        <section id="projects">
+            <p class="section__text__p1">Browse my recent projects</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="pr1" class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">J.A.R.V.I.S</h2>
+                    <div class="btn-container">
+                        <button class="btn-color-2 project btn" onclick="location.href='https://github.com/MD14pro/Jarvis.py'">
+                            Github
+                        </button>
+                        <button class="btn-color-2 project btn" onclick="location.href='./assets/jarvisPR.pdf'">
+                            Project Report
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.png" alt="pr2" class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">AM Radio Receiver</h2>
+                    <div class="btn-container">
+                        <button class="btn-color-2 project btn" onclick="location.href='./assets/AMrec_pcb.pdf'">
+                            PCB Schematic
+                        </button>
+                        <button class="btn-color-2 project btn" onclick="location.href='./assets/AMrecPR.pdf'">
+                            Project Report
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="pr3" class="project-img"/>
+                    </div>
+                    <h2 class="experience-sub-title project-title">VISION (coming soon)</h2>
+                    <div class="btn-container">
+                        <button class="btn-color-2 project btn" onclick="location.href=''">
+                            Github
+                        </button>
+                        <button class="btn-color-2 project btn" onclick="location.href=''">
+                            Project Report
+                        </button>
+                    </div>
+                </div></div>
+            </div>
+            <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#contact'"/>
+        </section>
+        <section id="contact">
+            <p class="section__text__p1">Get in touch</p>
+            <h1 class="title">Contact me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./assets/email.png" alt="email icon" class="icon contact-icon" />
+                    <p><a href="mailto:muddassir.azim.co.in@gmail.com">muddassir.azim.co.in@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon" />
+                    <p><a href="https://www.linkedin.com/in/muddassir-sheikh-b72221247">LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>copyright &#169; 2025 MD Sheikh. All rights reserved</p>
+        </footer>
+            <script src="script.js"></script>
+    </body>
+</html>
